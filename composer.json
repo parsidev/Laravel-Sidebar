@@ -15,26 +15,17 @@
     }
   ],
   "require": {
-    "php": "^8.1",
-    "illuminate/cache": "~10.0|~11.0",
-    "illuminate/container": "~10.0|~11.0",
-    "illuminate/contracts": "~10.0|~11.0",
-    "illuminate/support": "~10.0|~11.0",
-    "illuminate/routing": "~10.0|~11.0",
-    "illuminate/view": "~10.0|~11.0"
-  },
-  "require-dev": {
-    "mockery/mockery": "^1.6",
-    "phpunit/phpunit": "^10.4"
+    "php": "^8.3",
+    "illuminate/cache": "^11",
+    "illuminate/container": "^11",
+    "illuminate/contracts": "^11",
+    "illuminate/support": "^11",
+    "illuminate/routing": "^11",
+    "illuminate/view": "^11"
   },
   "autoload": {
     "psr-4": {
       "Maatwebsite\\Sidebar\\": "src/"
-    }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "Maatwebsite\\Sidebar\\Tests\\": "tests/"
     }
   },
   "extra": {
@@ -46,10 +37,6 @@
   },
   "config": {
     "preferred-install": "dist"
-  },
-  "scripts": {
-    "test": "vendor/bin/phpunit",
-    "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
   },
   "minimum-stability": "dev"
 }
